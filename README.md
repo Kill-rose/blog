@@ -4,4 +4,6 @@
 
 今のところ誰かに読んでもらう目的はない（準備期間）
 
-URL（https://kill-rose.github.io/lunetra/）から見てね
+URLから見てね
+
+https://kill-rose.github.io/lunetra/
