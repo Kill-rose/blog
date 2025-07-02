@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome!">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="apple-touch-icon-180x180.png" sizes="180x180">
+	<link rel="icon" type="image/png" href="android-chrome-192x192.png" sizes="192x192">
+    <title>Lunetra</title>
+    <link rel="stylesheet" href="css/default.css">
+    <script src="js/script.js" defer></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/js/lightbox.min.js" type="text/javascript"></script>
+</head>
+
+<!-- やばい！　ソースを見られたらカスみたいな書き方してるのバレちゃう！！！！ -->
+
+<body class="theme-floral"> <!-- テーマ（色） -->
+
+<div class="content-container"> <!-- 上の余白 -->
+
+
+<div class="page show"> <!-- 左右の余白 -->
+
+<header style="width: 100%;">
+    <table border="0" class="file-header container-nb headers" style="font-size: 120%; "> <!-- 上の検索窓っぽい装飾 -->
+        <tr>
+            <td class="file-header-left header"> <!-- 左上の装飾アイコンの部分 -->
+                <img src="img/header-icon.png" alt="Menu" class="header-left-icon"> <!-- 左上の装飾アイコンの画像 -->
+            </td>
+            <td class="table-str header" id="header-title">Welcome!</td> <!-- 右上の案内メッセージ　デフォルトがhomeなのでそうしておく -->
+        </tr>
+    </table>
+    <div class="header-image container headers"> <!-- ヘッダー画像の枠 -->
+        <img src="img/header-image.png" alt="Lunetra" > <!-- ヘッダー画像 -->
+    </div>
+    <div class="header-adv container nonecont stripe-bg  headers" style="text-align: center; color: #9e7a5b00; user-select: none; font-size: 200%;"> <!-- ボーダー部分 -->
+        welcome to Lunetra. <!-- 隠しテキスト（意味無し） -->
+    </div>
+    <table border="0" class="header-tab-cover container-nb  headers" style="border-bottom: none;"> <!-- タブ部分 -->
+        <tr>
+        <td class="header-tab header" data-tab="home" style="border-bottom: none;">Home</td>
+        <td class="header-tab selected header" data-tab="original" style="border-bottom: none;">Original</td>
+        </tr>
+    </table>         
+    <table border="0" class="header-tab-cover container-nb  headers" id="sub-tabs"  style="display: none;"> <!-- サブタブ部分 -->
+        <tr>
+        <td class="header-tab selected header" data-tab="original-top">Top</td>
+        <td class="header-tab header" data-tab="ss">SS</td>
+        <td class="header-tab header" data-tab="game">Game</td>
+        <td class="header-tab header" data-tab="irust">Irust</td>
+        <td class="header-tab header" data-tab="other">Other</td>
+        </tr>
+    </table>     
+</header> <!-- ヘッダー終わり -->
+
+<!-- Home -->
+<div id="home-content" class="tab-content">
+<div class="container cont-double" style=" border-top: none;">
+    
+    <div class="cont-str">
+        <table border="0" class="scratch-table container-nb">
+            <tr>
+            <td class="table-str" style="text-align: left; padding-left: 1vw;">About</td>
+            <td class="table-str scr" style="width: 10%; ">🔎</td>
+            </tr>
+        </table>      
+        <div class="top">
+            <h3>Lunetra</h3>
+            <p>永キの一次創作の設定がまとまった個人サイト。</p>
+        </div>
+        <hr>
+        <div class="bottom">
+            <h3>Wakepadia - 永キ</h3>
+            <p>永キ（nagaki）は、自ら創作を行い、成果物を食べて生きている生命体。その正体は謎に包まれている。    …続きを見る</p>
+        </div>
+    </div>
+    <div class="cont-img"  src="img/icon.png"><img src="img/dea.png" style="max-width: 100%;"></div>
+</div> 
+<div class="container" style=" border-top: none;">
+
+    <div class="cont-str-main">
+        <table border="0" class="scratch-table container-nb" style="width: 50%;">
+            <tr>
+            <td class="table-str" style="text-align: left; padding-left: 1vw;">News</td>
+            <td class="table-str scr" style="width: 10%; ">🔎</td>
+            </tr>
+        </table>      
+        <div class="top">
+            <h3>Lunetra、ver2　25/7/1</h3>
+            <p>サイトの見た目を大幅改良。</a></p>
+        <hr>
+        <div class="bottom">
+            <h3>Lunetra、開放　25/5/7</h3>
+            <p>ノリと勢いでサイトを制作！！！</p>
+        </div>
+        <hr>
+        <div class="bottom">
+            <h3>あの"有名人"が突然のVTuberデビュー　-VNews　25/5/6</h3>
+            <p>記事を作成。<a style="color:var(--color-text);" href="blog/vtube.html">コチラ</a></p>
+        </div>
+    </div>
+</div> 
+</div>
+<div class="container" style=" border-top: none;">
+    <div class="cont-str-main">
+        <table border="0" class="scratch-table container-nb" style="width: 50%;">
+            <tr>
+            <td class="table-str" style="text-align: left; padding-left: 1vw;">Q&A</td>
+            <td class="table-str scr" style="width: 10%; ">🔎</td>
+            </tr>
+        </table>      
+            <div class="top">
+                <p><br>Q&A　コーナー　ぱふぱふ</p>
+            </div> 
+        <hr>
+            <div class="top">
+                <h3>Q1.フォント見づらい 目痛い</h3>
+                <p>A.イラストの雰囲気を尊重したほうが良いかなという意図。<br>
+                    苦情が多かったら変えられるようにしたいなと思っている。</p>
+            </div>
+        <hr>
+            <div class="bottom">
+                <h3>Q2.SNSとかのリンクは</h3>
+                <p>A.やってない。</p>
+            </div>
+
+    </div>
+</div>
+</div> <!-- Home 閉じ -->
+
+<!-- Original Top -->
+<div id="original-top-content" class="tab-content"  style="display: none;">
+    <div class="container" style=" border-top: none;  text-align: center; justify-content: center;">
+        <div class="cont-str-main"><div class="top">
+            <h3>◆ あてんしょん ◆</h3>
+            <p> ここから先に書いてあることは全部フィクションで、<br>
+                実際の人物・団体・事件などには<br>
+                一切関係ありません。</p>
+        </div></div>
+        
+            <img src="img/yubisasi.png" class="corner-image" style="user-select: none;">
+    </div>
+
+    <div class="container" style=" border-top: none;">
+        <div class="cont-str-main">
+            <table border="0" class="scratch-table container-nb" style="width: 50%;">
+                <tr>
+                <td class="table-str" style="text-align: left; padding-left: 1vw;">Explainist</td>
+                <td class="table-str scr" style="width: 10%; ">🏳️</td>
+                </tr>
+            </table>      
+            <div class="top">
+                <h3>エクスプレイニスト</h3>
+                <p> ある程度の摂理設定だけ同じな別の世界×４。総じて命は軽いが言うほど暗くない（多分）。</p>
+            </div>
+        </div>
+
+    </div> 
+    <div class="container cont-double" style=" border-top: none;">
+        
+        <div class="cont-str">
+            <table border="0" class="scratch-table container-nb">
+                <tr>
+                <td class="table-str" style="text-align: left; padding-left: 1vw;">Seed</td>
+                <td class="table-str scr" style="width: 10%; ">🔎</td>
+                </tr>
+            </table>      
+            <div class="top">
+                <a href="seed/home.html" style="position: relative; z-index: 10; text-decoration: none; color: var(--color-text);">
+                <h3>凍氷都市シード</h3></a>
+                <p> 現代日本モチーフ、４つの中でもファンタジー色が弱くかなり異色。<br>
+                    首都の凍氷都に１つだけのゲートを中心に、
+                    殺人が数日間にわたり報道される治安最高の「表」と、
+                    暴力マシマシ平均治安深夜LA未満の「裏」に分かれている国。設定変更により氷要素はない。</p>
+            </div>
+            <hr>
+            <div class="bottom">
+                <p> "あなたに生を望む資格があるか、試してみようじゃありませんか。"</p>
+            </div>
+        </div>
+        <div class="cont-maximg"  style="background-color: rgb(24, 26, 21);" onclick="location.href='seed/home.html'"><a href="seed/home.html"><img src="img/seed.png" class="fitted-image"></a></div>
+
+    </div>
+</div> <!-- Original Top 閉じ -->
+
+<!-- SS -->
+<div id="ss-content" class="tab-content" style="display: none;">
+    <div class="container" style=" border-top: none;  text-align: center; justify-content: center;">
+        <div class="cont-str-main" style="text-align: left;"><div class="top">
+            <h3>◆ ページ説明 ◆</h3>
+            <p> SS・小説置き場。<br>
+                完結しているものがほとんどない。</p>
+        </div></div>
+        
+    </div>
+
+    <div class="container" style=" border-top: none;">
+        <div class="cont-str-main">
+            <table border="0" class="scratch-table container-nb" style="width: 50%;">
+                <tr>
+                <td class="table-str" style="text-align: left; padding-left: 1vw;">Independence Story</td>
+                <td class="table-str scr" style="width: 10%; ">🔎</td>
+                </tr>
+            </table>      
+            <div class="top">
+                <h3>独立小説</h3>
+                <p>事前知識のいらない独立した小説。</p>
+            </div>
+        </div>
+    </div> 
+
+    <div class="container cont-double" style=" border-top: none;">
+        
+        <div class="cont-str">
+            <table border="0" class="scratch-table container-nb">
+                <tr>
+                <td class="table-str" style="text-align: left; padding-left: 1vw;">Black Swan</td>
+                <td class="table-str scr" style="width: 10%; ">🦢</td>
+                </tr>
+            </table>      
+            <div class="top">
+                <a href="SS/blackswan.html" style="position: relative; z-index: 10; text-decoration: none; color: var(--color-text);">
+                <h3>黒い白鳥と白い烏</h3></a>
+                <p> 気が向いたら更新。<br>
+                現代日本、息抜きに書いた男×男。ちょっとだけ暗い。<br>
+            <a href="SS/blackswan.html">読む</a></p>
+            </div>
+            <hr>
+            <div class="bottom">
+                <p> 話数：1話<br>
+                    1話平均：3500字程度<br>
+                    全体長さ：3500字程度</p>
+            </div>
+        </div>
+        <div class="cont-maximg"  style="background-color: rgb(255, 255, 255);" ><img src="img/blackswan.png" class="fitted-image"></div>
+
+    </div>
+    <div class="container cont-double" style=" border-top: none;">
+        <div class="cont-str">
+            <table border="0" class="scratch-table container-nb">
+                <tr>
+                <td class="table-str" style="text-align: left; padding-left: 1vw;">MARRYED</td>
+                <td class="table-str scr" style="width: 10%; ">❤</td>
+                </tr>
+            </table>      
+            <div class="top">
+                <a href="SS/kisakike.html" style="position: relative; z-index: 10; text-decoration: none; color: var(--color-text);">
+                <h3>結婚詐欺師脅迫して結婚迫ってみた</h3></a>
+                <p> ネタ引っ張り出して深夜に布団の中で書いた。<br>
+                    満足いってない。<br>
+            <a href="SS/kesakike.html">読む</a></p>
+            </div>
+            <hr>
+            <div class="bottom">
+                <p> 話数：1話<br>
+                    1話平均：1000字程度<br>
+                    全体長さ：1000字程度</p>
+            </div>
+        </div>
+        <div class="cont-maximg"  style="background-color: rgb(13, 0, 36);" ><img src="img/kesakike.png" class="fitted-image"></div>
+
+    </div>
+
+
+
+
+</div> <!-- SS 閉じ -->
+
+<!-- Irust -->
+<div id="irust-content" class="tab-content" style="display: none;">
+    <div class="container" style=" border-top: none;  text-align: center; justify-content: center;">
+        <div class="cont-str-main" style="text-align: left;">
+            <div class="top">
+                <h3>◆ ページ説明 ◆</h3>
+                <p> イラスト置き場。<br>
+                    落書き１０割。</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" style=" border-top: none;">
+        <div class="cont-str-main">
+            <table border="0" class="scratch-table container-nb" style="width: 50%;">
+                <tr>
+                <td class="table-str" style="text-align: left; padding-left: 1vw;">RAKUGUKI</td>
+                <td class="table-str scr" style="width: 10%; ">✒️</td>
+                </tr>
+            </table>      
+            <div class="top">
+                <h3>落書き</h3>
+                <p>らくがき。</p>
+            </div>
+        </div>
+    </div> 
+
+    <div class="container" style=" border-top: none;">
+            <div class="bottom gallery">
+                <a href="img/gallery/rakugaki1.png" data-lightbox="R1" data-title="俺の夢は終わらねぇ！　2024~2025">
+                    <img src="img/gallery/rakugaki1.png" alt="" class="gallery-img">
+                </a>
+                <a href="img/gallery/rakugaki3.png" data-lightbox="R1" data-title="しかばねありさ　2024~2025">
+                    <img src="img/gallery/rakugaki3.png" alt="" class="gallery-img">
+                </a>
+                <a href="img/gallery/moke.png" data-lightbox="R1" data-title="没スチル　朝霧　2025/6">
+                    <img src="img/gallery/moke.png" alt="" class="gallery-img">
+                </a>
+                <a href="img/gallery/mikan.png" data-lightbox="R1" data-title="2025/5">
+                    <img src="img/gallery/mikan.png" alt="" class="gallery-img">
+                </a>
+            </div>
+    </div> 
+
+
+</div> <!-- Irust 閉じ -->
+
+
+<!-- Game -->
+<div id="game-content" class="tab-content" style="display: none;">
+    <div class="container" style=" border-top: none;  text-align: center; justify-content: center;">
+        <div class="cont-str-main" style="text-align: left;">
+            <div class="top">
+                <h3>Coming Soon…</h3>
+                <p>Coming Soon…</p>
+            </div>
+        </div>
+    </div>
+</div> <!-- Game 閉じ -->
+
+<!-- Other -->
+<div id="other-content" class="tab-content" style="display: none;">
+    <div class="container" style=" border-top: none;  text-align: center; justify-content: center;">
+        <div class="cont-str-main" style="text-align: left;">
+            <div class="top">
+                <h3>◆</h3>
+                <p>Coming Soon…</p>
+            </div>
+        </div>
+    </div>
+</div> <!-- Other 閉じ -->
+
+
+
+
+
+
+
+<!-- フォントサイズ変更のhtml -->
+
+<div class="font-size-toggle" id="fontSizeToggle">
+    A
+</div>
+
+<div class="font-size-menu" id="fontSizeMenu">
+    <h4>文字サイズ</h4>
+    <div class="font-size-options">
+        <div class="font-size-option" data-size="small">小</div>
+        <div class="font-size-option active" data-size="medium">中</div>
+        <div class="font-size-option" data-size="large">大</div>
+    </div>
+</div>
+
+<!-- フォントサイズ変更のhtml終わり -->
+
+
+
+</div> <!-- page show 閉じ -->
+
+<script>
+// タブ管理システム
+class TabManager {
+    constructor() {
+        this.currentMainTab = 'home';
+        this.headerTitles = {
+            'home': 'Welcome!',
+            'original': '- Original Top -',
+            'ss': '- Short Story Storage -',
+            'game': '- Games -',
+            'other': '- Other Contents -',
+            'irust': '- Irustrations -'
+        };
+        
+        this.init();
+    }
+
+    init() {
+        // メインタブのクリックイベント
+        document.querySelectorAll('.header-tab[data-tab="home"], .header-tab[data-tab="original"]').forEach(tab => {
+            tab.addEventListener('click', (e) => {
+                const tabName = e.target.dataset.tab;
+                this.switchMainTab(tabName);
+            });
+        });
+
+        // サブタブのクリックイベント
+        document.querySelectorAll('.header-tab[data-tab="original-top"], .header-tab[data-tab="ss"], .header-tab[data-tab="game"], .header-tab[data-tab="other"], .header-tab[data-tab="other"], .header-tab[data-tab="irust"]').forEach(tab => {
+            tab.addEventListener('click', (e) => {
+                const tabName = e.target.dataset.tab;
+                this.switchSubTab(tabName);
+            });
+        });
+
+        // 初期表示
+        this.updateDisplay();
+    }
+
+    switchMainTab(tabName) {
+        this.currentMainTab = tabName;
+        
+        // Homeタブの場合はサブタブを隠す
+        if (tabName === 'home') {
+            document.getElementById('sub-tabs').style.display = 'none';
+        } else {
+            document.getElementById('sub-tabs').style.display = 'table';
+            // Originalタブに戻った時はOriginal-Topを表示
+            if (tabName === 'original') {
+                this.currentSubTab = 'original-top';
+            }
+        }
+        
+        this.updateDisplay();
+    }
+
+    switchSubTab(tabName) {
+        this.currentSubTab = tabName;
+        this.currentMainTab = 'original'; // サブタブが選択されたらメインタブはOriginalに
+        this.updateDisplay();
+    }
+
+    updateDisplay() {
+        // ヘッダータイトルの更新
+        const headerTitle = document.getElementById('header-title');
+        if (this.currentMainTab === 'home') {
+            headerTitle.textContent = this.headerTitles['home'];
+        } else {
+            // サブタブに応じてタイトルを変更
+            switch (this.currentSubTab) {
+                case 'ss':
+                    headerTitle.textContent = this.headerTitles['ss'];
+                    break;
+                case 'game':
+                    headerTitle.textContent = this.headerTitles['game'];
+                    break;
+                case 'irust':
+                    headerTitle.textContent = this.headerTitles['irust'];
+                    break;
+                case 'other':
+                    headerTitle.textContent = this.headerTitles['other'];
+                    break;
+                default:
+                    headerTitle.textContent = this.headerTitles['original'];
+            }
+        }
+
+        // メインタブの選択状態更新
+        document.querySelectorAll('.header-tab[data-tab="home"], .header-tab[data-tab="original"]').forEach(tab => {
+            tab.classList.remove('selected');
+            if (tab.dataset.tab === this.currentMainTab) {
+                tab.classList.add('selected');
+            }
+        });
+
+        // サブタブの選択状態更新
+        document.querySelectorAll('.header-tab[data-tab="original-top"], .header-tab[data-tab="ss"], .header-tab[data-tab="game"], .header-tab[data-tab="other"], .header-tab[data-tab="irust"]').forEach(tab => {
+            tab.classList.remove('selected');
+            if (tab.dataset.tab === this.currentSubTab) {
+                tab.classList.add('selected');
+            }
+        });
+
+        // コンテンツの表示/非表示
+        this.updateContent();
+    }
+
+    updateContent() {
+        // すべてのコンテンツを隠す
+        document.querySelectorAll('.tab-content').forEach(content => {
+            content.style.display = 'none';
+        });
+
+        // 現在のタブに応じてコンテンツを表示
+        let contentId;
+        if (this.currentMainTab === 'home') {
+            contentId = 'home-content';
+        } else {
+            switch (this.currentSubTab) {
+                case 'ss':
+                    contentId = 'ss-content';
+                    break;
+                case 'game':
+                    contentId = 'game-content';
+                    break;
+                case 'irust':
+                    contentId = 'irust-content';
+                    break;
+                case 'other':
+                    contentId = 'other-content';
+                    break;
+                default:
+                    contentId = 'original-top-content';
+            }
+        }
+
+        const targetContent = document.getElementById(contentId);
+        if (targetContent) {
+            targetContent.style.display = 'block';
+        }
+    }
+}
+
+// フォントサイズ変更機能
+class FontSizeController {
+    constructor() {
+        this.toggle = document.getElementById('fontSizeToggle');
+        this.menu = document.getElementById('fontSizeMenu');
+        this.options = document.querySelectorAll('.font-size-option');
+        this.currentSize = 'medium';
+        
+        this.init();
+    }
+
+    init() {
+        // トグルボタンのクリックイベント
+        this.toggle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            this.toggleMenu();
+        });
+
+        // メニュー外クリックで閉じる
+        document.addEventListener('click', (e) => {
+            if (!this.menu.contains(e.target) && !this.toggle.contains(e.target)) {
+                this.closeMenu();
+            }
+        });
+
+        // フォントサイズオプションのクリックイベント
+        this.options.forEach(option => {
+            option.addEventListener('click', (e) => {
+                const size = e.target.dataset.size;
+                this.changeFontSize(size);
+                this.closeMenu();
+            });
+        });
+
+        // 保存されたフォントサイズを復元
+        this.loadSavedFontSize();
+    }
+
+    toggleMenu() {
+        this.menu.classList.toggle('show');
+    }
+
+    closeMenu() {
+        this.menu.classList.remove('show');
+    }
+
+    changeFontSize(size) {
+        // 既存のフォントサイズクラスを削除
+        document.body.classList.remove('font-small', 'font-medium', 'font-large');
+        
+        // 新しいフォントサイズクラスを追加
+        document.body.classList.add(`font-${size}`);
+        
+        // アクティブな選択肢を更新
+        this.options.forEach(option => {
+            option.classList.remove('active');
+            if (option.dataset.size === size) {
+                option.classList.add('active');
+            }
+        });
+
+        // 現在のサイズを保存
+        this.currentSize = size;
+        this.saveFontSize(size);
+
+        // トグルボタンのアイコンを更新
+        this.updateToggleIcon(size);
+    }
+
+    updateToggleIcon(size) {
+        const icons = {
+            small: 'A',
+            medium: 'A',
+            large: 'A'
+        };
+        this.toggle.textContent = icons[size];
+        
+        // サイズに応じてアイコンのスタイルも変更
+        const iconSizes = {
+            small: '16px',
+            medium: '20px',
+            large: '24px'
+        };
+        this.toggle.style.fontSize = iconSizes[size];
+    }
+
+    saveFontSize(size) {
+        // メモリに保存（localStorage使用不可のため）
+        window.currentFontSize = size;
+    }
+
+    loadSavedFontSize() {
+        // メモリから復元
+        const savedSize = window.currentFontSize || 'medium';
+        this.changeFontSize(savedSize);
+    }
+}
+
+// ページ読み込み後に初期化
+document.addEventListener('DOMContentLoaded', () => {
+    new TabManager();
+    new FontSizeController();
+});
+</script>
+
+</body>
+</html>
